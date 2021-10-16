@@ -199,7 +199,7 @@ const Viewprofile = (props) => {
         </div>
       </div>
 
-      <div className="profile-options-container">
+      {/* <div className="profile-options-container">
         {Object.values(options).map((arr, i) => (
           <div className="option-container" key={i}>
             {arr.map((pa, j) => (
@@ -221,7 +221,7 @@ const Viewprofile = (props) => {
             ))}
           </div>
         ))}
-      </div>
+      </div> */}
       <div className="option-comp-container">{optionComponent}</div>
     </div>
   );

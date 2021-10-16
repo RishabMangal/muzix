@@ -78,7 +78,7 @@ const Profileaudiolist = (props) => {
     },
   ];
   return (
-    <div className="list-container row mx-0">
+    <div className="list-container row">
       {list.map((card, i) => (
         <div className="list-card col-sm-3" key={i}>
           <Link to={"/PREVIEW-NFT"}>
@@ -87,6 +87,10 @@ const Profileaudiolist = (props) => {
         </div>
       ))}
     </div>
+
+    // <div className="list-container row ">
+
+    // </div>
   );
 };
 

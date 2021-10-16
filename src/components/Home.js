@@ -47,31 +47,39 @@ const Home = (props) => {
           <Nftslist sqr={four} cir={cir}></Nftslist>
         </Cardcontainer>
       </div>
+      <div>
+        <br />
+      </div>
       <div className="my-4">
         <Dropmenucontainer></Dropmenucontainer>
       </div>
-      <div className=" my-4 ml-4">
+
+      <div>
+        <br />
+      </div>
+      <div className=" my-4 ml-4 ">
         <div className="m-card-content ">
-              <div className=" nft-card-container m-2">
-                <div className="nft-img-container">
-                  <img className="nft-img" src={battle1} alt="logo"></img>
-                </div>
-              </div>
-              <div className=" nft-card-container m-2">
-                <div className="nft-img-container">
-                  <img className="nft-img" src={battle2} alt="logo"></img>
-                </div>
-              </div>
-              <div className=" nft-card-container m-2">
-                <div className="nft-img-container">
-                  <img className="nft-img" src={battle3} alt="logo"></img>
-                </div>
-              </div>
-              <div className=" nft-card-container m-2">
-                <div className="nft-img-container">
-                  <img className="nft-img" src={battle4} alt="logo"></img>
-                </div>
-              </div>
+          <div className=" nft-card-container m-2">
+            <div className="nft-img-container">
+              <img className="nft-img" src={sqr} alt="logo"></img>
+            </div>
+          </div>
+          <div className=" nft-card-container m-2">
+            <div className="nft-img-container">
+              <img className="nft-img" src={battle2} alt="logo"></img>
+            </div>
+          </div>
+          <div className=" nft-card-container m-2">
+            <div className="nft-img-container">
+              <img className="nft-img" src={battle3} alt="logo"></img>
+            </div>
+          </div>
+
+          <div className=" nft-card-container m-2">
+            <div className="nft-img-container">
+              <img className="nft-img" src={battle4} alt="logo"></img>
+            </div>
+          </div>
         </div>
       </div>
     </div>

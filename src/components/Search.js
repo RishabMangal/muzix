@@ -1,7 +1,9 @@
 import React from "react";
 import { Input, Select } from "antd";
 import "../assets/css/search.css";
+// import { FontAwes  omeIcon } from "@fortawesome/react-fontawesome";
 import Searchtermlist from "./SearchTermList";
+
 const { Option } = Select;
 const Search = (props) => {
   const exploreOptions = [
@@ -13,7 +15,8 @@ const Search = (props) => {
       <div className="search-input-container my-4">
         <Input
           className="search-input"
-          placeholder="SEARCH FOR NFTS, ARTISTS, COLLECTIONS, TRACKS AND MORE!"
+          placeholder="&#xF002;  SEARCH FOR NFTS, ARTISTS, COLLECTIONS, TRACKS AND MORE!"
+          style={{ fontFamily: "Arial 'Font Awesome 5 Free'" }}
           size="large"
         ></Input>
       </div>

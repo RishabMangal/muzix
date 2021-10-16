@@ -10,12 +10,12 @@ const routes = [
   },
   {
     pathName: "SEARCH",
-    path: "/search",
+    path: "/SEARCH",
     component: Search,
   },
   {
     pathName: "MINT NFT",
-    path: "/mint nft",
+    path: "/MINT NFT",
     component: page2,
   },
   {

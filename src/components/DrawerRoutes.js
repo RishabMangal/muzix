@@ -8,7 +8,7 @@ const Drawerroutes = (props) => {
           className="drawer-route"
           key={i}
           onClick={() => {
-            props.history.push(route.path.replaceAll(" ", "-"));
+            props.history.push(route.path.replaceAll(" ", "-").toLowerCase());
             props?.closeDrawer();
           }}
         >

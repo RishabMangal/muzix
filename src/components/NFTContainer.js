@@ -12,7 +12,7 @@ const Nftcontainer = (props) => {
             <div className="nft-title clr">{props.title}</div>
             <div className="nft-rating clr">{props.rating}</div>
           </div>
-          <div className="author-details">
+          <div className="author-details row">
             <div className="nft-author-img-container">
               <img
                 className="nft-author-img"

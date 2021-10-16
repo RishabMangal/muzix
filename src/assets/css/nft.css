@@ -14,6 +14,9 @@
   margin: 10px;
 }
 
+.scroll {
+  display: table-cell;
+}
 .nft-card-container:hover {
   transform: scale(1.06);
   background-color: white;
@@ -74,7 +77,9 @@
 }
 
 .nft-title {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36) / var(--unnamed-line-spacing-50) var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-36) /
+    var(--unnamed-line-spacing-50) var(--unnamed-font-family-bahnschrift);
   letter-spacing: var(--unnamed-character-spacing-7-2);
   color: var(--unnamed-color-ffffff);
   text-align: left;
@@ -85,7 +90,9 @@
 }
 
 .nft-rating {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-36) / var(--unnamed-line-spacing-50) var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-36) / var(--unnamed-line-spacing-50)
+    var(--unnamed-font-family-bahnschrift);
   letter-spacing: var(--unnamed-character-spacing-7-2);
   color: var(--unnamed-color-ffffff);
   text-align: left;
@@ -96,13 +103,15 @@
 }
 
 .nft-author-title {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 30px/42px var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    30px/42px var(--unnamed-font-family-bahnschrift);
   color: var(--unnamed-color-ffffff);
   text-align: left;
   font: normal normal normal 1.7rem/2rem Bahnschrift;
   letter-spacing: 6px;
   color: #ffffff;
   opacity: 1;
+  padding-top: 40px;
 }
 
 .nft-success-container {
@@ -126,7 +135,9 @@
 .nft-description {
   width: 556px;
   height: 94px;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 39px/55px var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) 39px/55px
+    var(--unnamed-font-family-bahnschrift);
   color: var(--unnamed-color-ffffff);
   text-align: center;
   font: normal normal normal 39px/55px Bahnschrift;
@@ -146,7 +157,9 @@
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #ffffff;
   opacity: 1;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-24) / var(--unnamed-line-spacing-34) var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-24) / var(--unnamed-line-spacing-34)
+    var(--unnamed-font-family-bahnschrift);
   letter-spacing: var(--unnamed-character-spacing-4-8);
   color: var(--unnamed-color-0c0c0c);
   text-align: center;

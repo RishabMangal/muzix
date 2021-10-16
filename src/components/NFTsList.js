@@ -32,7 +32,7 @@ const Nftslist = (props) => {
     },
   ];
   return list.map((nft, i) => (
-    <div key={i} className=" m-2">
+    <div key={i} className=" m-4">
       <Nftcontainer {...nft}></Nftcontainer>
     </div>
   ));

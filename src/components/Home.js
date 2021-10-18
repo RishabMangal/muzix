@@ -7,7 +7,7 @@ import Creatorslist from "./CreatorsList";
 import sqr from "../assets/images/space1.png";
 import cir from "../assets/images/cir.jpg";
 import four from "../assets/images/four.png";
-import battle1 from "../assets/images/1.jpg";
+//import battle1 from "../assets/images/1.jpg";
 import battle4 from "../assets/images/battle4.jpg";
 import battle2 from "../assets/images/battle2.jpg";
 import battle3 from "../assets/images/battle3.jpg";

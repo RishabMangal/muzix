@@ -5,7 +5,7 @@ import React from 'react'
 //import './mint_nftt_single_auction.css'
 //import img2 from './upload.png'
 //import img1 from './tick.png'
-import Addcolab from '../headers/addcolab'
+//import Addcolab from '../headers/addcolab'
 import Bot from '../bottom/bot'
 
 function page7() {

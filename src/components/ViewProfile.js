@@ -89,8 +89,9 @@ const Viewprofile = (props) => {
     ],
   };
   const [tabKey, setTabKey] = useState(0);
-  const [optionKey, setOptionKey] = useState(0);
-  const [optionComponent, setOptionComponent] = useState(
+//  const [optionKey, setOptionKey] = useState(0);
+//  const [optionComponent, setOptionComponent] = useState(
+  const [optionComponent] = useState(  
     options.comPairL[0].component
   );
   return (

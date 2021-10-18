@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5656a43e.chunk.css",
-    "main.js": "/static/js/main.729c5f2d.chunk.js",
-    "main.js.map": "/static/js/main.729c5f2d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.abf89fad.js",
-    "runtime-main.js.map": "/static/js/runtime-main.abf89fad.js.map",
+    "main.css": "/static/css/main.5524c10c.chunk.css",
+    "main.js": "/static/js/main.0e8655e8.chunk.js",
+    "main.js.map": "/static/js/main.0e8655e8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b8b71d81.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b8b71d81.js.map",
     "static/css/2.a95be28f.chunk.css": "/static/css/2.a95be28f.chunk.css",
-    "static/js/2.59ef5911.chunk.js": "/static/js/2.59ef5911.chunk.js",
-    "static/js/2.59ef5911.chunk.js.map": "/static/js/2.59ef5911.chunk.js.map",
-    "static/js/3.e95bfba5.chunk.js": "/static/js/3.e95bfba5.chunk.js",
-    "static/js/3.e95bfba5.chunk.js.map": "/static/js/3.e95bfba5.chunk.js.map",
+    "static/js/2.272b3f85.chunk.js": "/static/js/2.272b3f85.chunk.js",
+    "static/js/2.272b3f85.chunk.js.map": "/static/js/2.272b3f85.chunk.js.map",
+    "static/js/3.4e06a8a6.chunk.js": "/static/js/3.4e06a8a6.chunk.js",
+    "static/js/3.4e06a8a6.chunk.js.map": "/static/js/3.4e06a8a6.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.a95be28f.chunk.css.map": "/static/css/2.a95be28f.chunk.css.map",
-    "static/css/main.5656a43e.chunk.css.map": "/static/css/main.5656a43e.chunk.css.map",
-    "static/js/2.59ef5911.chunk.js.LICENSE.txt": "/static/js/2.59ef5911.chunk.js.LICENSE.txt",
-    "static/media/1.453a42e7.jpg": "/static/media/1.453a42e7.jpg",
+    "static/css/main.5524c10c.chunk.css.map": "/static/css/main.5524c10c.chunk.css.map",
+    "static/js/2.272b3f85.chunk.js.LICENSE.txt": "/static/js/2.272b3f85.chunk.js.LICENSE.txt",
     "static/media/amazebox.9eebb608.jpg": "/static/media/amazebox.9eebb608.jpg",
     "static/media/battle2.5388304d.jpg": "/static/media/battle2.5388304d.jpg",
     "static/media/battle3.88366ed6.jpg": "/static/media/battle3.88366ed6.jpg",
@@ -34,10 +33,10 @@
     "static/media/vnft.ace85b76.png": "/static/media/vnft.ace85b76.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.abf89fad.js",
+    "static/js/runtime-main.b8b71d81.js",
     "static/css/2.a95be28f.chunk.css",
-    "static/js/2.59ef5911.chunk.js",
-    "static/css/main.5656a43e.chunk.css",
-    "static/js/main.729c5f2d.chunk.js"
+    "static/js/2.272b3f85.chunk.js",
+    "static/css/main.5524c10c.chunk.css",
+    "static/js/main.0e8655e8.chunk.js"
   ]
 }

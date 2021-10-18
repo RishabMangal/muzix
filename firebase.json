@@ -1,7 +1,6 @@
 {
   "hosting": {
     "public": "build",
-    "site": "muzixnfts",
     "ignore": [
       "firebase.json",
       "**/.*",

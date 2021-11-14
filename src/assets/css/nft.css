@@ -1,5 +1,6 @@
 .nft-card-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -17,6 +18,7 @@
 .scroll {
   display: table-cell;
 }
+
 .nft-card-container:hover {
   transform: scale(1.06);
   background-color: white;
@@ -33,6 +35,7 @@
 
 .nft-img-container {
   padding: 1rem;
+  min-width: 350px;
 }
 
 .nft-img {
@@ -44,6 +47,7 @@
 
 .nft-details-container {
   display: flex;
+  /* flex-wrap: wrap; */
   align-items: stretch;
   justify-content: space-between;
   width: 100%;
@@ -57,6 +61,7 @@
 
 .nft-details {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
   flex-direction: column;
@@ -64,6 +69,7 @@
 
 .author-details {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
@@ -77,9 +83,7 @@
 }
 
 .nft-title {
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) var(--unnamed-font-size-36) /
-    var(--unnamed-line-spacing-50) var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36) / var(--unnamed-line-spacing-50) var(--unnamed-font-family-bahnschrift);
   letter-spacing: var(--unnamed-character-spacing-7-2);
   color: var(--unnamed-color-ffffff);
   text-align: left;
@@ -90,9 +94,7 @@
 }
 
 .nft-rating {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    var(--unnamed-font-size-36) / var(--unnamed-line-spacing-50)
-    var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-36) / var(--unnamed-line-spacing-50) var(--unnamed-font-family-bahnschrift);
   letter-spacing: var(--unnamed-character-spacing-7-2);
   color: var(--unnamed-color-ffffff);
   text-align: left;
@@ -103,8 +105,7 @@
 }
 
 .nft-author-title {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    30px/42px var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 30px/42px var(--unnamed-font-family-bahnschrift);
   color: var(--unnamed-color-ffffff);
   text-align: left;
   font: normal normal normal 1.7rem/2rem Bahnschrift;
@@ -116,6 +117,7 @@
 
 .nft-success-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
@@ -124,6 +126,7 @@
 
 .fire-img-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -135,9 +138,7 @@
 .nft-description {
   width: 556px;
   height: 94px;
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) 39px/55px
-    var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 39px/55px var(--unnamed-font-family-bahnschrift);
   color: var(--unnamed-color-ffffff);
   text-align: center;
   font: normal normal normal 39px/55px Bahnschrift;
@@ -148,6 +149,7 @@
 
 .nft-action-btn {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 354px;
@@ -157,9 +159,7 @@
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #ffffff;
   opacity: 1;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    var(--unnamed-font-size-24) / var(--unnamed-line-spacing-34)
-    var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-24) / var(--unnamed-line-spacing-34) var(--unnamed-font-family-bahnschrift);
   letter-spacing: var(--unnamed-character-spacing-4-8);
   color: var(--unnamed-color-0c0c0c);
   text-align: center;

@@ -1,4 +1,4 @@
-.bott{
+.bott {
     position: relative;
     margin-top: 60px;
     margin-left: 10px;
@@ -15,9 +15,10 @@
     opacity: .3;
 }
 
-.price{
-    
+.price {
+
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }

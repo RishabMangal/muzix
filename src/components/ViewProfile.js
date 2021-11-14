@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { isBrowser } from "react-device-detect";
 import "../assets/css/profile.css";
 import bg from "../assets/images/bg.png";
 import cir from "../assets/images/cir.jpg";
@@ -89,11 +90,9 @@ const Viewprofile = (props) => {
     ],
   };
   const [tabKey, setTabKey] = useState(0);
-//  const [optionKey, setOptionKey] = useState(0);
-//  const [optionComponent, setOptionComponent] = useState(
-  const [optionComponent] = useState(  
-    options.comPairL[0].component
-  );
+  //  const [optionKey, setOptionKey] = useState(0);
+  //  const [optionComponent, setOptionComponent] = useState(
+  const [optionComponent] = useState(options.comPairL[0].component);
   return (
     <div>
       <div className="profile-banner" style={{ backgroundImage: `url(${bg})` }}>
@@ -102,7 +101,10 @@ const Viewprofile = (props) => {
           <img src={cir} alt="pro" className="profile-img"></img>
         </div>
       </div>
-      <div className="profile-details-container">
+      <div
+        className="profile-details-container"
+        style={!isBrowser ? { paddingTop: "6rem" } : {}}
+      >
         <div className="pair-container">
           <div>
             <div className="pair-container">
@@ -120,20 +122,32 @@ const Viewprofile = (props) => {
             </div>
           </div>
           <div className="key-value-pair">
-            <div className="follow-count" style={{ marginLeft: "10rem" }}>
+            <div
+              className="follow-count"
+              style={isBrowser ? { marginLeft: "10rem" } : {}}
+            >
               693 FOLLOWERS
             </div>
-            <div className="follow-btn" style={{ marginLeft: "10rem" }}>
+            <div
+              className="follow-btn"
+              style={isBrowser ? { marginLeft: "10rem" } : {}}
+            >
               FOLLOW
             </div>
           </div>
         </div>
         <div className="pair-container">
           <div className="key-value-pair">
-            <div className="follow-count" style={{ marginRight: "10rem" }}>
+            <div
+              className="follow-count"
+              style={isBrowser ? { marginRight: "10rem" } : {}}
+            >
               123 FOLLOWING
             </div>
-            <div className="follow-btn" style={{ marginRight: "10rem" }}>
+            <div
+              className="follow-btn"
+              style={isBrowser ? { marginRight: "10rem" } : {}}
+            >
               TIP
             </div>
           </div>

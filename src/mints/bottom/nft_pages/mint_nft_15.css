@@ -1,5 +1,6 @@
-.autorize{
+.autorize {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -17,9 +18,11 @@
     color: #0C0C0C;
     text-transform: uppercase;
 }
-.click_here{
+
+.click_here {
     margin-top: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -30,9 +33,11 @@
     color: #E6E6E6;
     opacity: 1;
 }
-.centr{
+
+.centr {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
+
 }

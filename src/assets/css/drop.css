@@ -1,13 +1,15 @@
 .drop-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
     margin-left: 3rem;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
 .drop-item {
     display: flex;
+    flex-wrap: wrap;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;

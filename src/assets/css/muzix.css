@@ -125,6 +125,7 @@
 .m-head {
     display: flex;
     flex-wrap: wrap;
+    flex-wrap: wrap;
     align-items: baseline;
     justify-content: flex-start;
     font-size: 1rem;
@@ -172,6 +173,7 @@
 
 .m-filter {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-evenly;
     margin: 2rem 0;
@@ -221,6 +223,7 @@
 .m-card-title-container {
     display: flex;
     flex-wrap: wrap;
+    flex-wrap: wrap;
     align-items: center;
     /* justify-content: space-between; */
     padding: 1rem 0;
@@ -231,7 +234,9 @@
 
 .m-card-title-sub-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    flex-wrap: wrap;
     /* align-self: flex-start; */
     /* justify-content: space-between; */
 }
@@ -269,10 +274,11 @@
 
 .m-card-content {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
+    align-items: center;
+    flex-wrap: nowrap;
     /* width: 90vw; */
-    /* overflow-x: scroll; */
+    overflow-x: scroll;
 
 }
 
@@ -282,6 +288,7 @@
 
 .m-search-item {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     flex-direction: column;

@@ -1,13 +1,13 @@
-.creator{
+.creator {
     text-align: left;
     font: normal normal normal 20px/44px Bahnschrift;
     letter-spacing: 4.2px;
     color: #FFFFFF;
     text-transform: uppercase;
-    
+
 }
 
-.txt_box{
+.txt_box {
     margin: 30px;
     margin-top: 0px;
     background: #363636 0% 0% no-repeat padding-box;
@@ -22,9 +22,10 @@
     text-transform: uppercase;
 }
 
-.centro{
+.centro {
     align-content: space-around;
     margin: 30px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }

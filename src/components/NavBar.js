@@ -40,10 +40,10 @@ const NavBar = (props) => {
               ? name === "VIEW PROFILE"
                 ? {
                     color: "#fff",
-                    fontSize: isBrowser ? "3rem" : "1.5rem",
+                    fontSize: isBrowser ? "3rem" : "1.25rem",
                   }
-                : { fontSize: isBrowser ? "3rem" : "1.5rem" }
-              : { fontSize: isBrowser ? "3rem" : "1.5rem" }
+                : { fontSize: isBrowser ? "3rem" : "1.25rem" }
+              : { fontSize: isBrowser ? "3rem" : "1.25rem" }
           }
         >
           {name
@@ -59,7 +59,7 @@ const NavBar = (props) => {
         placement="left"
         visible={showDrawer}
         onClose={() => setShowDrawer(false)}
-        width={"40%"}
+        width={isBrowser ? "40%" : "100%"}
         // size={"large"}
         className="drawer"
         drawerStyle={{ backgroundColor: "#1a1a1a" }}

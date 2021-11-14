@@ -5,6 +5,7 @@
   /* opacity: 0.6; */
   background-size: cover;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-end;
   flex-wrap: wrap;
@@ -17,8 +18,7 @@
   left: 0;
   height: 407px;
   transform: matrix(-1, 0, 0, -1, 0, 0);
-  background: transparent linear-gradient(180deg, #04040400 0%, #000000b3 100%)
-    0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #04040400 0%, #000000b3 100%) 0% 0% no-repeat padding-box;
   opacity: 0.6;
 }
 
@@ -45,6 +45,7 @@
 
 .profile-details-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   padding: 1rem;
@@ -53,6 +54,7 @@
 
 .pair-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -60,9 +62,7 @@
 
 .follow-count {
   height: 24px;
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) var(--unnamed-font-size-24) /
-    var(--unnamed-line-spacing-34) var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24) / var(--unnamed-line-spacing-34) var(--unnamed-font-family-bahnschrift);
   letter-spacing: var(--unnamed-character-spacing-4-8);
   color: var(--unnamed-color-707070);
   text-align: left;
@@ -78,14 +78,14 @@
   background: #363636 0% 0% no-repeat padding-box;
   border-radius: 12px;
   opacity: 0.4;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    19px/27px var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 19px/27px var(--unnamed-font-family-bahnschrift);
   color: var(--unnamed-color-707070);
   text-align: left;
   font: normal normal bold 19px/27px Bahnschrift;
   letter-spacing: 7.6px;
   opacity: 1;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 0.5rem;
@@ -96,15 +96,14 @@
 .stats-container {
   flex-basis: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .view-stat {
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) var(--unnamed-font-size-24) /
-    var(--unnamed-line-spacing-34) var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24) / var(--unnamed-line-spacing-34) var(--unnamed-font-family-bahnschrift);
   letter-spacing: var(--unnamed-character-spacing-4-8);
   color: var(--unnamed-color-707070);
   text-align: center;
@@ -117,6 +116,7 @@
 
 .intro-contianer {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -125,8 +125,7 @@
 
 .profile-name {
   height: 40px;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    40px/56px var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 40px/56px var(--unnamed-font-family-bahnschrift);
   color: var(--unnamed-color-ffffff);
   text-align: left;
   /* font: normal normal bold 40px/56px Bahnschrift; */
@@ -137,10 +136,8 @@
 }
 
 .profile-desc {
-  width: 800px;
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) var(--unnamed-font-size-24) /
-    var(--unnamed-line-spacing-34) var(--unnamed-font-family-bahnschrift);
+  max-width: 800px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24) / var(--unnamed-line-spacing-34) var(--unnamed-font-family-bahnschrift);
   color: var(--unnamed-color-707070);
   text-align: center;
   /* font: normal normal normal 24px/34px Bahnschrift; */
@@ -152,15 +149,15 @@
 
 .profile-tab-container {
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 0 0 2rem;
 }
 
 .tab-btn-inactive {
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) var(--unnamed-font-size-32) /
-    var(--unnamed-line-spacing-44) var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-32) / var(--unnamed-line-spacing-44) var(--unnamed-font-family-bahnschrift);
   letter-spacing: var(--unnamed-character-spacing-6-4);
   color: var(--unnamed-color-707070);
   text-align: left;
@@ -171,6 +168,7 @@
   margin: 0 2rem;
   cursor: pointer;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -179,9 +177,7 @@
   cursor: pointer;
   background: #363636 0% 0% no-repeat padding-box;
   border-radius: 12px;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    var(--unnamed-font-size-32) / var(--unnamed-line-spacing-44)
-    var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-32) / var(--unnamed-line-spacing-44) var(--unnamed-font-family-bahnschrift);
   letter-spacing: var(--unnamed-character-spacing-6-4);
   color: var(--unnamed-color-ffffff);
   text-align: left;
@@ -192,12 +188,14 @@
   padding: 0.5rem 1rem;
   margin: 0 2rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
 .profile-options-container {
   display: flex;
+  flex-wrap: wrap;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -206,14 +204,13 @@
 
 .option-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
 
 .option-inactive {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    var(--unnamed-font-size-24) / var(--unnamed-line-spacing-34)
-    var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-24) / var(--unnamed-line-spacing-34) var(--unnamed-font-family-bahnschrift);
   letter-spacing: var(--unnamed-character-spacing-4-8);
   color: var(--unnamed-color-707070);
   text-align: left;
@@ -225,9 +222,7 @@
 }
 
 .option-active {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    var(--unnamed-font-size-24) / var(--unnamed-line-spacing-34)
-    var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-24) / var(--unnamed-line-spacing-34) var(--unnamed-font-family-bahnschrift);
   letter-spacing: var(--unnamed-character-spacing-4-8);
   color: var(--unnamed-color-ffffff);
   text-align: left;
@@ -238,9 +233,17 @@
   margin: 10px;
 }
 
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
 .pa-container {
   padding: 0.5rem;
-  max-width: 400px;
+  max-width: 350px;
 }
 
 .pa-img-container {
@@ -261,9 +264,7 @@
 }
 
 .pa-title {
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) var(--unnamed-font-size-24) /
-    var(--unnamed-line-spacing-34) var(--unnamed-font-family-bahnschrift);
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24) / var(--unnamed-line-spacing-34) var(--unnamed-font-family-bahnschrift);
   letter-spacing: var(--unnamed-character-spacing-4-8);
   color: var(--unnamed-color-ffffff);
   text-align: left;

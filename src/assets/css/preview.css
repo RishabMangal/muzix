@@ -2,6 +2,7 @@
     flex-basis: 100%;
     display: flex;
     flex-wrap: wrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
@@ -9,6 +10,7 @@
 
 .key-value-pair {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -68,6 +70,8 @@
     text-transform: uppercase;
     opacity: 1;
     margin: 2rem 0;
+    width: 100%;
+    overflow-wrap: anywhere;
 }
 
 .preview-action-btn {
@@ -88,12 +92,14 @@
     text-transform: uppercase;
     opacity: 1;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
 .preview-action-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 }
@@ -114,6 +120,7 @@
     color: #000000;
     opacity: 1;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin: 1rem;

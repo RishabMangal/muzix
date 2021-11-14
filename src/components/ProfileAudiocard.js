@@ -2,7 +2,7 @@ import React from "react";
 
 const Profileaudiocard = (props) => {
   return (
-    <div className="row pa-container">
+    <div className="pa-container">
       <div className="pa-img-container">
         <img src={props.logo} alt={props.title} className="pa-img"></img>
       </div>

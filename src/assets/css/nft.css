@@ -9,7 +9,7 @@
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 12px;
   opacity: 1;
-  max-width: 400px;
+  max-width: 300px;
   transition: 0.5s;
   color: #fff;
   margin: 10px;
@@ -35,7 +35,7 @@
 
 .nft-img-container {
   padding: 1rem;
-  min-width: 350px;
+  min-width: 250px;
 }
 
 .nft-img {
@@ -76,8 +76,8 @@
 }
 
 .nft-author-img {
-  width: 84px;
-  height: 84px;
+  width: 54px;
+  height: 54px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -87,7 +87,7 @@
   letter-spacing: var(--unnamed-character-spacing-7-2);
   color: var(--unnamed-color-ffffff);
   text-align: left;
-  font: normal normal normal 1.7rem/2rem Bahnschrift;
+  font: normal normal normal 1.5rem/2rem Bahnschrift;
   letter-spacing: 7.2px;
   color: #ffffff;
   opacity: 1;
@@ -98,7 +98,7 @@
   letter-spacing: var(--unnamed-character-spacing-7-2);
   color: var(--unnamed-color-ffffff);
   text-align: left;
-  font: normal normal normal 1.7rem/2rem Bahnschrift;
+  font: normal normal normal 1.5rem/2rem Bahnschrift;
   letter-spacing: 7.2px;
   color: #ffffff;
   opacity: 1;
@@ -108,7 +108,7 @@
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 30px/42px var(--unnamed-font-family-bahnschrift);
   color: var(--unnamed-color-ffffff);
   text-align: left;
-  font: normal normal normal 1.7rem/2rem Bahnschrift;
+  font: normal normal normal 1.25rem/2rem Bahnschrift;
   letter-spacing: 6px;
   color: #ffffff;
   opacity: 1;

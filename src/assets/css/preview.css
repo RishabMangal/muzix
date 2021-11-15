@@ -19,6 +19,8 @@
     /* margin: 1rem 2rem 2rem; */
 }
 
+
+
 .key {
     /* height: 24px; */
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-34) var(--unnamed-font-family-bahnschrift);
@@ -125,4 +127,24 @@
     justify-content: center;
     margin: 1rem;
     padding: 0 1.5rem;
+}
+
+
+/* -----------MEDIA QUESIRES */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    /* Styles */
+    .key-value-pair {
+        align-items: center;
+        margin: 1.25rem 0;
+    }
+
+    .profile-tab-container .tab-btn-inactive {
+        margin: 1.25rem;
+    }
+
+    .drawer-route {
+        margin: 1rem 0.5rem;
+        font-size: 1.25rem;
+    }
 }
